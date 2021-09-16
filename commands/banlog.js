@@ -4,8 +4,8 @@ const { MessageMenuOption, MessageMenu } = require("discord-buttons");
 
 module.exports.run = async (client, message, args) => {
 
-    var banChannel = message.guild.channels.cache.find(x => x.id === "867901608992964638");
-    var openbaarChannel = message.guild.channels.cache.find(ch => ch.id === "872138329875951696");
+    var banChannel = message.guild.channels.cache.find(x => x.id === "882733203163602986");
+    var openbaarChannel = message.guild.channels.cache.find(ch => ch.id === "883112534255747172z");
 
     var embed = new discord.MessageEmbed()
         .setTitle("Ban log Menu")

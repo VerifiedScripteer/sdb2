@@ -4,7 +4,7 @@ const { MessageMenuOption, MessageMenu } = require("discord-buttons");
 
 module.exports.run = async (client, message, args) => {
 
-    var warnChannel = message.guild.channels.cache.find(x => x.id === "867901580727681044");
+    var warnChannel = message.guild.channels.cache.find(x => x.id === "882733157298876446");
 
     var embed = new discord.MessageEmbed()
         .setTitle("Warn log Menu")
